@@ -5,47 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce-Home</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1 id="principal">Tienda Muebles</h1>
+    <header class="cabecera">
+        <h1 class="principal">Tienda <span class="muebles">Muebles</span></h1>
         <hr>
     </header>
-    <nav>
-        <ul style="list-style: none;">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="tienda.html">Tienda</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-        <img src="reto02/img/principal.jpg" alt="Imagen principal" width="100%" height="auto">
-    </nav>
+    <div class="container-nav">
+        <nav class="nav-bar">
+            <ul style="list-style: none;">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <div class="hero" style="background-image: url(reto02/img/principal.jpg)">
+
+    </div>
     <main>
         <section>
 
-            <h2>Categorías de Productos</h2>
-            <div>
-                <img src="reto02/img/categoria1.jpg" alt="categoria1"><br>
-                <a href=#principal>Oficina</a>
-            </div>
-            <div>
-                <img src="reto02/img/categoria2.jpg" alt="categoria2"><br>
-                <a href=#principal>Hogar</a>
-            </div>
-            <div>
-                <img src="reto02/img/categoria3.jpg" alt="categoria3"><br>
-                <a href=#principal>Cocina</a>
+            <h2 class="categorias">Categorías de Productos</h2>
+
+            <div class="container-categories">
+                <div class="category">
+                    <img src=" reto02/img/categoria1.jpg" alt="categoria1">
+                    <a href=#principal>Oficina</a>
+                </div>
+                <div class="category">
+                    <img src="reto02/img/categoria2.jpg" alt="categoria2">
+                    <a href=#principal>Hogar</a>
+                </div>
+                <div class="category">
+                    <img src="reto02/img/categoria3.jpg" alt="categoria3">
+                    <a href=#principal>Cocina</a>
+                </div>
             </div>
 
         </section>
         <section>
 
-            <div>
-                <img src="reto02/img/nosotros.jpg" alt="nosotros"><br>
-                <div>
+            <div class="container-ours">
+                <div class="img_nosotros">
+                    <img src="reto02/img/nosotros.jpg" alt="nosotros">
+                </div>
+                <div class="about_us">
                     <h3>Sobre Nosotros</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis, non alias facere
                         provident ea numquam? Maxime quam quis repudiandae at dolorem, placeat pariatur explicabo
@@ -55,19 +71,23 @@
             </div>
 
         </section>
-        <section>
+        <section class="products">
 
             <h2>Nuestros Productos</h2>
-            <div>
-                <img src="reto02/img/producto1.jpg" alt="producto1">
-                <article>
+
+            <div class="product1">
+                <div class="pd_img">
+                    <img src="reto02/img/producto1.jpg" alt="producto1">
+                </div>
+                <div class="pd_description">
                     <h3>Producto 1</h3>
                     <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
                         mauris.</p>
-                    <h3>$1,000,000.00</h3>
+                    <h3 class="price1">$1,000,000.00</h3>
                     <a href=#principal>Agregar al carrito</a>
-                </article>
-            </div><br>
+                </div>
+            </div>
+
             <div>
                 <img src="reto02/img/producto2.jpg" alt="producto2">
                 <article>

@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce-Contacto</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <h1 id="principal">Tienda Muebles</h1>
+        <h1 id="principal">Tienda <span class="muebles">Muebles</span></h1>
         <hr>
     </header>
     <nav>
@@ -23,20 +24,30 @@
         </ul>
     </nav>
     <main>
-        <h2>Contacto</h2>
-        <form action="">
+        <h2 class="subtitle-contact">Contacto</h2>
+        <form action="" class="formulario">
             <fieldset>
-                <legend>Tus Datos</legend>
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required><br><br>
-                <label for="asunto">Asunto:</label><br>
-                <input type="text" id="asunto" name="asunto" required><br><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="telefono">Teléfono:</label><br>
-                <input type="tel" id="telefono" name="telefono" required><br><br>
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+                <legend class="legend-datos">Tus Datos</legend>
+                <div>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                </div>
+                <div>
+                    <label for="asunto">Asunto:</label><br>
+                    <input type="text" id="asunto" name="asunto" required><br><br>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono" required><br><br>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+                </div>
             </fieldset>
 
 
