@@ -37,11 +37,13 @@
 
 .nav-bar a {
     text-decoration: none;
+    color: black;
 }
 
 .container-nav {
     padding: 20px 0px;
     font-family: 'Raleway', sans-serif;
+    border-top: 0.1px dashed black;
 
 }
 
@@ -92,6 +94,7 @@ h2.categorias {
     padding: 20px;
     display: block;
     margin: 0;
+    color: black;
 
     &:hover {
         background-color: #037bc0;
@@ -167,8 +170,9 @@ h2.categorias {
     align-items: stretch;
     max-width: 1200px;
     margin: 0 auto;
-
 }
+
+
 
 .pd_img {
     flex: 4;
@@ -193,15 +197,13 @@ h2.categorias {
 
 .pd_description h3 {
     color: #fff;
-    font-size: 30px;
-    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
     padding: 10px 0px;
 
 }
 
-.price1 {
-    font-family: 'Raleway', sans-serif;
-}
+
 
 .pd_description p {
     color: #fff;
@@ -209,10 +211,91 @@ h2.categorias {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     line-height: 25px;
+
 }
 
 .pd_description a {
+    display: block;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    background-color: #8cbc00;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+
+    &:hover {
+        background-color: #7da828;
+    }
+
+
+
+}
+
+.product1 {
+    margin: auto;
+    height: 25rem;
+}
+
+.productos-c2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 15px auto;
+    max-width: 1200px;
+    gap: 16px;
+
+    .product-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+div.product-card {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 25px;
+    background-color: #037bc0;
+    ;
+
+}
+
+.product-card article {
+    background-color: #037bc0;
+}
+
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+article {
+    padding: 20px;
+}
+
+article h3 {
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    margin: 15px;
+}
+
+article p {
+    margin: 15px;
+}
+
+article a {
     display: inline-block;
+    /* convierte el enlace en un bloque */
+    width: 100%;
     color: #fff;
     text-decoration: none;
     background-color: #8cbc00;
@@ -226,10 +309,118 @@ h2.categorias {
         background-color: #7da828;
     }
 
+}
+
+.productos-c3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px auto;
+    max-width: 1200px;
+    gap: 16px;
+}
+
+.product-card2 img {
+    width: 100%;
+    height: 216.15px;
+    object-fit: cover;
+    display: block;
+
+}
+
+div.product-card2 {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 25px;
+    background-color: #037bc0;
+    ;
+
+}
+
+.product-card h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.product-card2 h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3.product_play {
+    font-family: "Playfair Display", serif;
+}
+
+section ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+
 
 
 }
 
-.product1 {
-    margin: auto;
+section ul {
+    list-style: none;
+}
+
+section h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 50px 0px 16px;
+    text-align: center;
+}
+
+.container-f3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-f3 {
+    margin-top: 50px;
+}
+
+h2.nosotros-h2,
+h2.title-blog {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    margin-top: 20px
+}
+
+article.container-nosotros {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    margin: 0px 100px;
+}
+
+div.container-d-n {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 20px;
+    font-size: 16px;
+
+}
+
+div.container-d-n p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+}
+
+article div img {
+    display: block;
+    max-width: 1280px;
+    width: 100%;
+    height: 361px;
 }

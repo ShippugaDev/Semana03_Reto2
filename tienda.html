@@ -4,126 +4,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Ecommerce-Tienda</title>
 </head>
 
 <body>
-    <header>
-        <h1 id="principal">Tienda Muebles</h1>
-        <hr>
-    </header>
-    <nav>
-        <ul style="list-style: none;">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="tienda.html">Tienda</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+    <header class="cabecera">
+        <h1 class="principal">Tienda <span class="muebles">Muebles</span></h1>
 
-    </nav>
+    </header>
+    <div class="container-nav">
+        <nav class="nav-bar">
+            <ul style="list-style: none;">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </div>
     <main>
 
-        <section>
+        <section class="products">
 
             <h2>Nuestros Productos</h2>
-            <div>
-                <img src="reto02/img/producto1.jpg" alt="producto1">
-                <article>
-                    <h3>Producto 1</h3>
+
+            <div class="product1">
+                <div class="pd_img">
+                    <img src="reto02/img/producto1.jpg" alt="producto1">
+                </div>
+                <div class="pd_description">
+                    <h3 class="product_play">Producto 1</h3>
                     <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
                         mauris.</p>
-                    <h3>$1,000,000.00</h3>
-                    <a href=#principal>Agregar al carrito</a>
-                </article>
-            </div><br>
-            <div>
-                <img src="reto02/img/producto2.jpg" alt="producto2">
-                <article>
-                    <h3>Producto 2</h3>
-                    <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
-                        mauris.</p>
-                    <h3>$1,000,000.00</h3>
-                    <a href=#principal>Agregar al carrito</a>
-                </article>
-            </div><br>
-            <div>
-                <img src="reto02/img/galeria_06.jpg" alt="producto3">
-                <article>
-                    <h3>Producto 3</h3>
-                    <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
-                        mauris.</p>
-                    <h3>$1,000,000.00</h3>
-                    <a href=#principal>Agregar al carrito</a>
-                </article>
-            </div><br>
-            <div>
-                <img src="reto02/img/producto4.jpg" alt="producto4">
-                <article>
-                    <h3>Producto 4</h3>
-                    <p> Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
-                        mauris.</p>
-                    <h3>$1,000,000.00</h3>
-                    <a href=#principal>Agregar al carrito</a>
-                </article>
-            </div><br>
-            <div>
-                <img src="reto02/img/producto5.jpg" alt="producto5">
-                <article>
-                    <h3>Producto 5</h3>
-                    Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
-                    mauris.
-                    <h3>$1,000,000.00</h3>
-                    <a href=#principal>Agregar al carrito</a>
-                </article>
-            </div><br>
-            <div>
-                <img src="reto02/img/producto6.jpg" alt="producto6">
-                <article>
-                    <h3>Producto 6</h3>
-                    Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
-                    mauris.
-                    <h3>$1,000,000.00</h3>
-                    <a href=#principal>Agregar al carrito</a>
-                </article>
-            </div><br>
+                    <h3 class="price1">$1,000,000.00</h3>
+
+                    <a href=#principal class="cart">Agregar al carrito</a>
+
+                </div>
+            </div>
+
+            <div class="productos-c2">
+                <div class="product-card">
+                    <img class="img-2_3" src="reto02/img/producto2.jpg" alt="producto2">
+                    <article>
+                        <h3 class="product_play">Producto 2</h3>
+                        <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
+                            mauris.</p>
+                        <h3>$1,000,000.00</h3>
+                        <div class="p2-c">
+                            <a href=#principal class="cart">Agregar al carrito</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="product-card">
+                    <img class="img-2_3" src="reto02/img/galeria_06.jpg" alt="producto3">
+                    <article>
+                        <h3 class="product_play">Producto 3</h3>
+                        <p>Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
+                            mauris.</p>
+                        <h3>$1,000,000.00</h3>
+                        <div class="p2-c">
+                            <a href=#principal class="cart">Agregar al carrito</a>
+                        </div>
+
+                    </article>
+                </div>
+            </div>
+
+            <div class="productos-c3">
+                <div class="product-card2">
+                    <img src="reto02/img/producto4.jpg" alt="producto4">
+                    <article>
+                        <h3 class="product_play">Producto 4</h3>
+                        <p> Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed
+                            nec
+                            mauris.</p>
+                        <h3>$1,000,000.00</h3>
+                        <a href=#principal>Agregar al carrito</a>
+                    </article>
+                </div>
+                <div class="product-card2">
+                    <img src="reto02/img/producto5.jpg" alt="producto5">
+                    <article>
+                        <h3 class="product_play">Producto 5</h3>
+                        Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
+                        mauris.
+                        <h3>$1,000,000.00</h3>
+                        <a href=#principal>Agregar al carrito</a>
+                    </article>
+                </div>
+                <div class="product-card2">
+                    <img src="reto02/img/producto6.jpg" alt="producto6">
+                    <article>
+                        <h3 class="product_play">Producto 6</h3>
+                        Proin condimentum sodales risus ut aliquet. Nunc eu neque quis sapien feugiat posuere sed nec
+                        mauris.
+                        <h3>$1,000,000.00</h3>
+                        <a href=#principal>Agregar al carrito</a>
+                    </article>
+                </div>
+            </div>
 
         </section>
     </main>
     <hr>
-    <footer>
-        <section>
-            <h2>Categorías</h2>
-            <ul>
-                <li><a href=#principal>Cocina</a></li>
-                <li><a href=#principal>Oficina</a></li>
-                <li><a href=#principal>Jardín</a></li>
-                <li><a href=#principal>Cochera</a></li>
-                <li><a href=#principal>Dormitorios</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Sobre Nosotros</h2>
-            <ul>
-                <li><a href="nosotros.html">Nuestra Historia</a></li>
-                <li><a href="tienda.html">Misión, Visión y Valores</a></li>
-                <li><a href="blog.html">Carreras</a></li>
-                <li><a href="galeria.html">Política de Provacidad</a></li>
-                <li><a href="contacto.html">Soporte</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Soporte</h2>
-            <ul>
-                <li><a href="contacto.html">Preguntas Frecuentes</a></li>
-                <li><a href="blog.html">Ayuda en línea</a></li>
-                <li><a href="tienda.html">Confianza y Seguridad</a></li>
-            </ul>
-        </section>
-        <div>
-            <h5>Todos los derechos reservados, Tienda Muebles</h5>
+    <footer class="container-footer">
+        <div class="container-f3">
+            <section>
+                <h2>Categorías</h2>
+                <ul>
+                    <li><a href=#principal>Cocina</a></li>
+                    <li><a href=#principal>Oficina</a></li>
+                    <li><a href=#principal>Jardín</a></li>
+                    <li><a href=#principal>Cochera</a></li>
+                    <li><a href=#principal>Dormitorios</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Sobre Nosotros</h2>
+                <ul>
+                    <li><a href="nosotros.html">Nuestra Historia</a></li>
+                    <li><a href="tienda.html">Misión, Visión y Valores</a></li>
+                    <li><a href="blog.html">Carreras</a></li>
+                    <li><a href="galeria.html">Política de Provacidad</a></li>
+                    <li><a href="contacto.html">Soporte</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Soporte</h2>
+                <ul>
+                    <li><a href="contacto.html">Preguntas Frecuentes</a></li>
+                    <li><a href="blog.html">Ayuda en línea</a></li>
+                    <li><a href="tienda.html">Confianza y Seguridad</a></li>
+                </ul>
+            </section>
         </div>
+        <p>Todos los derechos reservados, Tienda Muebles</p>
     </footer>
 </body>
 
