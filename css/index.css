@@ -424,3 +424,26 @@ article div img {
     width: 100%;
     height: 361px;
 }
+
+section.blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 26px;
+    padding: 40px;
+    margin: 40px
+}
+
+aside ul {
+    list-style: disc;
+}
+
+article div.img-blog img {
+    width: 100%;
+    height: 500px;
+}
+
+div a.leer {
+    text-align: center;
+    width: 30%;
+    padding: 15px 0px;
+}
